@@ -18,7 +18,7 @@ public class Main {
         while (!cancel) {
             cancel = true;
             for (int i = 0; i < list.size() - 1; i++) {
-                if (list.get(i) > list.get(i + 1)) {
+                if (list.get(i) > list.get(i + 1)) { // < || > для смены типа сортировки
                     int a = list.get(i);
                     list.set(i, list.get(i + 1));
                     list.set(i + 1, a);
